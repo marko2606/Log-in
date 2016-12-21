@@ -1,0 +1,10 @@
+<h2>View User</h2>
+<button ng-click="viewUserEdit()">Edit profile</button>
+<button ng-click="goBack()">Go back</button>
+<p>name:</p> <input ng-model="viewUserName" ng-disabled="viewUserBlock" class="js-viewUserName">
+<p>email:</p> <input ng-model="viewUserEmail" ng-disabled="viewUserBlock"  class="js-viewUserEmail">
+<p>password:</p> <input type="password" ng-model="viewUserPassword" ng-disabled="viewUserBlock" class="js-viewUserPassword">
+<p>Registration date:</p> <input ng-model="viewUserRegistrationDate" ng-disabled="viewUserBlockOn"  class="js-viewUserRegistrationDate">
+<p>Last change:</p> <input ng-model="viewUserLastChange" ng-disabled="viewUserBlockOn" class="js-viewUserLastChange">
+<p>Admin permission <input type="checkbox" ng-disabled="viewUserBlock" ng-model="viewUserPermission" class="js-viewUserPermission viewUserPermission"></p>
+<button ng-hide="viewUserSaveChangesDisplay" ng-click="viewUserSaveChanges()">Save changes</button>

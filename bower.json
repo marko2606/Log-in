@@ -1,0 +1,23 @@
+{
+  "name": "tradeCore - resenje Marko Zelenbaba github",
+  "homepage": "https://github.com/marko2606/LogIn",
+  "authors": [
+    "Marko Zelenbaba <zelenbaba.marko@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-route": "1.4.8",
+    "jquery": "^3.1.1",
+    "normalize-strings": "normalize#^1.1.0"
+  }
+}

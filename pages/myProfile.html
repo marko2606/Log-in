@@ -1,0 +1,9 @@
+<h2>My Profile</h2>
+<button ng-click="enableInputMyProfile()">Edit profile</button> <br>
+<button class="logoutBtn" ng-click="logout()">Log out</button> <br>
+name: <input ng-model="myProfileName" ng-disabled="myProfileBlock" class="js-myProfileName">
+email: <input ng-model="myProfileEmail" ng-disabled="myProfileBlock"  class="js-myProfileEmail">
+password: <input type="password" ng-model="myProfilePassword" ng-disabled="myProfileBlock" class="js-myProfilePassword">
+Registration date: <input ng-model="myProfileRegistrationDate" ng-disabled="myProfileBlockOn"  class="js-myProfileRegistrationDate">
+Last change: <input ng-model="myProfileLastChange" ng-disabled="myProfileBlockOn" class="js-myProfileLastChange">
+<button ng-hide="myProfileSaveChangesDisplay" ng-click="saveChangesMyProfile()">Save changes</button>

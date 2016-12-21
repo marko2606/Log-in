@@ -1,0 +1,17 @@
+<h2>Admin page</h2>
+<h3>List users</h3>
+<button class="logoutBtn" ng-click="logout()">Log out</button>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>email</th>
+        <th>Reg. date</th>
+        <th>Last change</th>
+    </tr>
+    <tr ng-repeat="user in userData" ng-click="adminViewUser(user)">
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.registrationDate}}</td>
+        <td>{{user.lastChangeDate}}</td>
+    </tr>
+</table>

@@ -1,0 +1,42 @@
+body {
+    padding: 20px;
+}
+
+button {
+    margin: 10px 10px;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+}
+
+.viewUserPermission {
+    display: inline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+tr:first-child:hover {
+    background-color: white;
+    cursor: auto;
+}
